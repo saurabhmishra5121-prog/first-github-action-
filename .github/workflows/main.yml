@@ -1,13 +1,13 @@
  name: Saurabh Mishra 
 
  on:
- push:
- branches [ main ]
+   push:
+     branches: [ main ]
+     
  jobs:
-
    demo:
-   runs-on:unbuntu-latest
-   steps:
-   -name: greating
-   run: echo "hello from apun"
+     runs-on: ubuntu-latest
+     steps:
+     - name: greating
+       run: echo "hello from apun"
    
